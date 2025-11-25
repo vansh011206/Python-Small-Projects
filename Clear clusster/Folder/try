@@ -1,0 +1,5 @@
+for i in range(10):  # 0 to 9
+    with open(f"{i}.txt", "w") as file:
+        file.write(f"This is file number {i}")
+    print(f"✅ Created {i}.txt")
+
